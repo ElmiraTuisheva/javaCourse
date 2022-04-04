@@ -1,0 +1,18 @@
+public class Main {
+    public static void main (String[] args) {
+
+        String sity = "Пенза\n";
+        int cnt = 500000;
+        float workless = 1.9F;
+        System.out.printf(sity);
+        System.out.println(cnt);
+        System.out.println(workless);
+        System.out.println("_____________");
+        char trib = 72;
+        byte place = 23;
+        int price = 500;
+        System.out.println(trib);
+        System.out.println(place);
+        System.out.println(price);
+    }
+}
