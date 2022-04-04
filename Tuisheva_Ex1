@@ -1,0 +1,15 @@
+public class House {
+    public static void main (String[] args){
+        System.out.println("___________' \"_____");
+        System.out.println("___________---_____");
+        System.out.println("_______/\\__|_|_____");
+        System.out.println("______/__\\_|_|_____");
+        System.out.println("_____/____\\|_|_____");
+        System.out.println("____/______\\_|_____");
+        System.out.println("___/__[__]__\\|_____");
+        System.out.println("__/|________|\\_____");
+        System.out.println("_/_|________|_\\____");
+        System.out.println("___|___---__|______");
+        System.out.println("___|___|_|__|_____");
+    }
+}
