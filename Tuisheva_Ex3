@@ -1,0 +1,40 @@
+public class Main {
+    public static void main (String[] args) {
+
+        int[] array = {3, 22, 1, 13, 4, 6, 16, 5};
+
+        for (int i = 0; i < array.length; i++){
+            if (array[i]% 2 == 0)
+            System.out.println(array[i]);
+        }
+    }
+    public static void house (String[] args){
+
+        int[] array = {3, 22, 1, 13, 4, 6, 16, 5};
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] / 10 > 0)
+                System.out.println(array[i]);
+        }
+    }
+    public static void num (String[] args) {
+        int[] array = {3, 22, 1, 13, 4, 6, 16, 5};
+        int max = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
+            }
+        }
+        System.out.println(max);
+    }
+    public static void sum (String... args) {
+        int[] array = {3, 22, 1, 13, 4, 6, 16, 5};
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        System.out.println(sum);
+    }
+}
+
+
